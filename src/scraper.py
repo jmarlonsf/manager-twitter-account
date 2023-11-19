@@ -13,7 +13,7 @@ def execute(username="", password=""):
     }
 
     url_login = "https://twitter.com/i/flow/login"
-    url_profile = "https://twitter.com/jmarlonsf"
+    url_profile = f"https://twitter.com/{username}"
     driver_path = r"D:\\projetos\\manager-twitter-account\\src\\resource\\chromedriver\\chromedriver.exe"
 
     driver = webdriver.Chrome()
